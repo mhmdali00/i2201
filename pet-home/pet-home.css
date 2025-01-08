@@ -1,15 +1,15 @@
 body {
-    background-image: url(cat1\ \(1\).jpg);
+    background-image: url(cat1.jpg);
     background-size: cover;
 }
 
 .navbar {
     text-decoration: none;
-    background-color: #8ecae6;
+    background-color: #14213d;
     font-family: cursive;
     padding-right: 15px;
     padding-left: 15px;
-    border: #003049 4px solid;
+    border: #fca311 4px solid;
 }
 
 .navdiv {
@@ -21,7 +21,7 @@ body {
 .logo a {
     font-size: 35px;
     font-weight: 600;
-    color: #023047;
+    color: #e5e5e5;
     text-decoration: none;
 }
 
@@ -31,7 +31,7 @@ li {
 }
 
 li a {
-    color: #023047;
+    color: #e5e5e5;
     font-size: 18px;
     font-weight: bold;
     margin-right: 25px;
@@ -39,7 +39,7 @@ li a {
 }
 
 button {
-    background-color: #219ebc;
+    background-color: #fca311;
     margin-left: 10px;
     border-radius: 10px;
     padding: 10px;
@@ -52,48 +52,49 @@ button a {
     font-size: 15px;
     text-decoration: none;
 }
+
 .main1 {
-    color: #023047;
-    font-weight: bold;
-    font-size: xx-large;
+    color: #e5e5e5;
     margin-top: 10px;
     margin-left: 10px;
 }
 
-.main2 {
+.fff {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-content: center;
     width: 390px;
-    
+
 
 }
-.mainphoto{
+
+.mainphoto {
+    border-radius: 20px;
     margin: 5px;
-    border: 1px;
-    border-style: solid;
+    border: 2px #fca311 solid;
     height: 150px;
-    border-color:#003049;
+
 }
-.fff{
+
+.main2 {
     display: flex;
     flex-direction: row;
 }
+
 .what-we-offer {
-   
-    border: 2px solid #003049;
+    border: 2px solid #fca311;
     border-radius: 10px;
     padding: 20px;
     margin: 20px 0;
-    color:#023047;
+    color: #023047;
     line-height: 1.6;
     width: 400px;
     font-weight: 700;
 }
 
 .what-we-offer h2 {
-    color: #023047;
+    color: #e5e5e5;
     margin-bottom: 10px;
 }
 
@@ -103,66 +104,61 @@ button a {
 }
 
 .what-we-offer ul li {
-    margin: 10px 0;
+    color: #fca311;
+    margin: 5px 0;
     padding-left: 20px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-footer {
-    color: #fff;
-    padding: 40px 20px;
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-font-size: medium;
-font-weight: 600;
+.what-we-offer ul li section{
+color: #e5e5e5;
 }
+.main3{
+        display: flex;
+        flex-direction: row;
 
-.footer-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
 }
-
-.divfooter {
-    flex: 1 1 calc(25% - 20px);
-    min-width: 200px;
-}
-
-.divfooter h4 {
-    font-size: 1.2rem;
-    margin-bottom: 15px;
-    color: #f9a825;
-}
-
-.dvvfooter ul {
-    list-style: none;
-    padding: 0;
-}
-
-.divfooter ul li {
+.what-we-offer dd dt h2 {
+    opacity: 100%;
+    color: #e5e5e5;
     margin-bottom: 10px;
 }
 
-.divfooter ul li a {
-    color: #fff;
-    text-decoration: none;
-}
+.what-we-offer dl {
+    list-style: none;
+    padding: 0;
+    color: #fca311;
+    margin: 5px 0;
+    padding-left: 20px;
 
-.footer-end {
+}
+ .footer{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    background-color:#023047 ;
+    height: fit-content;
     text-align: center;
-    margin-top: 20px;
-    border-top: 1px solid white;
-    padding-top: 10px;
-    font-size: 0.9rem;
-}
+    border: 2px solid #fca311;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    font-weight: 700;
+    
+ }
+ .links a{
+    font-size: large;
+    color: #fca311;
+    text-decoration: none;
+    margin: 5px;
 
+ }
+ .contact a{
+    font-size: large;
+    color: #fca311;
+    text-decoration: none;
+    margin: 5px;
+ }
+ .footer p{
+    color: #e5e5e5;
+    margin: 5px;
+ }
