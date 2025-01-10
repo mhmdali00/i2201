@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <link rel="stylesheet" href="log-in.css">
@@ -10,28 +10,38 @@
 <body>
     <div class="mainlogin">
         <h2>Login</h2>
-        <form>
-        
+        <form id="loginForm">
             <div class="fill">
                 <label for="username">Username</label>
-                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required aria-label="Username">
             </div>
-        
-            <div class="fill">
 
+            <div class="fill">
                 <label for="password">Password</label>
-                <input type="password" id="password" name="password" placeholder="Enter your password" required>
-            
+                <input type="password" id="password" name="password" placeholder="Enter your password" required aria-label="Password">
             </div>
+
             
-            <button type="submit" class="login-button"><a href="../pet-home/pet-home.html">Log In</a></button>
-        
+            <a href="../pet-home/pet-home.html" id="loginButton" class="login-button">Log In</a>
         </form>
-        
+
         <div class="end">
-            <p>Don't have an account? <a href="../sign up/sign-up.html">Sign Up</a></p>
+            <p>Don't have an account? <a href="../sign-up/sign-up.html">Sign Up</a></p>
         </div>
     </div>
+
+    <script>
+        // JavaScript to handle form validation
+        document.getElementById('loginButton').addEventListener('click', function (event) {
+            const username = document.getElementById('username').value.trim();
+            const password = document.getElementById('password').value.trim();
+
+            if (!username || !password) {
+                event.preventDefault(); // Prevent navigation
+                alert('Please enter both your username and password to log in.');
+            }
+        });
+    </script>
 </body>
 
 </html>

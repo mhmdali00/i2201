@@ -1,29 +1,10 @@
-body {
-    background-image: url(cat1.jpg);
-    background-size: cover;
-}
+body    {  background-image: url(../pet-home/photo/cat1.jpg);  background-size: cover;}
 
-.navbar {
-    text-decoration: none;
-    background-color: #14213d;
-    font-family: cursive;
-    padding-right: 15px;
-    padding-left: 15px;
-    border: #fca311 4px solid;
-}
+.navbar {   text-decoration: none;  background-color: #14213d;  font-family: cursive;   padding: 5px;    border: #fca311 4px solid;}
 
-.navdiv {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+.navdiv {   display: flex;  align-items: center;    }
 
-.logo a {
-    font-size: 35px;
-    font-weight: 600;
-    color: #e5e5e5;
-    text-decoration: none;
-}
+.logo a {   font-size: 35px;   font-weight: 600;    color: #e5e5e5;    text-decoration: none;}
 
 li {
     list-style: none;
@@ -65,8 +46,6 @@ button a {
     flex-wrap: wrap;
     align-content: center;
     width: 390px;
-
-
 }
 
 .mainphoto {
@@ -74,15 +53,28 @@ button a {
     margin: 5px;
     border: 2px #fca311 solid;
     height: 150px;
-
+    position: relative;
+    overflow: hidden;
 }
+
+
+.mainphoto img {
+    object-fit: cover;
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+
+  .mainphoto img:hover {
+    transform: scale(1.1);
+    filter: brightness(0.8); 
+  }
+
 
 .main2 {
     display: flex;
     flex-direction: row;
 }
 
-.what-we-offer {
+.paragraphs {
     border: 2px solid #fca311;
     border-radius: 10px;
     padding: 20px;
@@ -93,43 +85,42 @@ button a {
     font-weight: 700;
 }
 
-.what-we-offer h2 {
-    color: #e5e5e5;
+.paragraphs h2 {
+    color: #fca311;
     margin-bottom: 10px;
 }
 
-.what-we-offer ul {
+.paragraphs ul {
     list-style: none;
     padding: 0;
 }
 
-.what-we-offer ul li {
-    color: #fca311;
+.paragraphs ul li {
+    color: #e5e5e5;
     margin: 5px 0;
     padding-left: 20px;
 
 }
-.what-we-offer ul li section{
-color: #e5e5e5;
+.paragraphs ul li section{
+color: #fca311;
 }
 .main3{
         display: flex;
         flex-direction: row;
 
 }
-.what-we-offer dd dt h2 {
+.paragraphs dd dt h2 {
     opacity: 100%;
     color: #e5e5e5;
     margin-bottom: 10px;
 }
 
-.what-we-offer dl {
+.paragraphs dl {
     list-style: none;
     padding: 0;
-    color: #fca311;
+    color: #e5e5e5;
     margin: 5px 0;
     padding-left: 20px;
-
 }
  .footer{
     display: flex;
