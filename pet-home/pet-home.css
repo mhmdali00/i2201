@@ -1,16 +1,29 @@
-body    {  background-image: url(../pet-home/photo/cat1.jpg);  background-size: cover;}
-
-.navbar {   text-decoration: none;  background-color: #14213d;  font-family: cursive;   padding: 5px;    border: #fca311 4px solid;}
-
-.navdiv {   display: flex;  align-items: center;    }
-
-.logo a {   font-size: 35px;   font-weight: 600;    color: #e5e5e5;    text-decoration: none;}
-
+body {
+    background-image: url(../pet-home/photo/cat1.jpg);
+    background-size: cover;
+}
+.navbar {
+    text-decoration: none;
+    background-color: #14213d;
+    font-family: cursive;
+   padding: 5px;
+    border: #fca311 4px solid;
+}
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a {
+    font-size: 35px;
+    font-weight: 600;
+    color: #e5e5e5;
+    text-decoration: none;
+}
 li {
     list-style: none;
     display: inline-block;
 }
-
 li a {
     color: #e5e5e5;
     font-size: 18px;
@@ -18,7 +31,6 @@ li a {
     margin-right: 25px;
     text-decoration: none;
 }
-
 button {
     background-color: #fca311;
     margin-left: 10px;
@@ -26,20 +38,17 @@ button {
     padding: 10px;
     width: 90px;
 }
-
 button a {
     color: #023047;
     font-weight: bold;
     font-size: 15px;
     text-decoration: none;
 }
-
 .main1 {
     color: #e5e5e5;
     margin-top: 10px;
     margin-left: 10px;
 }
-
 .fff {
     display: flex;
     justify-content: center;
@@ -47,7 +56,6 @@ button a {
     align-content: center;
     width: 390px;
 }
-
 .mainphoto {
     border-radius: 20px;
     margin: 5px;
@@ -56,24 +64,18 @@ button a {
     position: relative;
     overflow: hidden;
 }
-
-
 .mainphoto img {
     object-fit: cover;
     transition: transform 0.3s ease, filter 0.3s ease;
-  }
-
+}
   .mainphoto img:hover {
     transform: scale(1.1);
     filter: brightness(0.8); 
-  }
-
-
+}
 .main2 {
     display: flex;
     flex-direction: row;
 }
-
 .paragraphs {
     border: 2px solid #fca311;
     border-radius: 10px;
@@ -84,17 +86,14 @@ button a {
     width: 400px;
     font-weight: 700;
 }
-
 .paragraphs h2 {
     color: #fca311;
     margin-bottom: 10px;
 }
-
 .paragraphs ul {
     list-style: none;
     padding: 0;
 }
-
 .paragraphs ul li {
     color: #e5e5e5;
     margin: 5px 0;
@@ -104,23 +103,21 @@ button a {
 .paragraphs ul li section{
 color: #fca311;
 }
-.main3{
-        display: flex;
-        flex-direction: row;
-
-}
 .paragraphs dd dt h2 {
     opacity: 100%;
     color: #e5e5e5;
     margin-bottom: 10px;
 }
-
 .paragraphs dl {
     list-style: none;
     padding: 0;
     color: #e5e5e5;
     margin: 5px 0;
     padding-left: 20px;
+}
+.main3{
+    display: flex;
+    flex-direction: row;
 }
  .footer{
     display: flex;
@@ -135,21 +132,21 @@ color: #fca311;
     margin: 20px;
     font-weight: 700;
     
- }
+}
  .links a{
     font-size: large;
     color: #fca311;
     text-decoration: none;
     margin: 5px;
 
- }
+}
  .contact a{
     font-size: large;
     color: #fca311;
     text-decoration: none;
     margin: 5px;
- }
+}
  .footer p{
     color: #e5e5e5;
     margin: 5px;
- }
+}
