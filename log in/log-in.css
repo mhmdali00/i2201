@@ -1,89 +1,62 @@
 body {
-    font-family: Arial, sans-serif;
-    background-image: url("login-photo.jpg");
-    background-repeat: no-repeat;
+    background-image: url(../pet-home/photo/cat1.jpg);
     background-size: cover;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    color: #e5e5e5; /* Default text color for consistency */
 }
-
-.mainlogin {
+.navbarr {
+    text-decoration: none;
     background-color: #14213d;
-    padding: 30px;
-    border-radius: 8px;
-    width: 100%;
-    max-width: 400px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    font-family: cursive;
+    padding: 5px;
+    border: #fca311 4px solid;
 }
-
-.mainlogin h2 {
-    margin-bottom: 20px;
-    color: #fca311;
-    text-align: center;
+.navdivv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-
-.fill {
-    margin-bottom: 15px;
-}
-
-.fill label {
-    display: block;
-    margin-bottom: 5px;
-    color: #fca311;
-    font-weight: bold;
-}
-
-.fill input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 14px;
-    outline: none;
-}
-
-.fill input:focus {
-    border-color: #fca311;
-    box-shadow: 0 0 5px #fca311;
-}
-
-.login-button {
-    display: block;
-    width: 100%;
-    text-align: center;
-    padding: 10px;
-    background-color: #fca311;
+.logoo {
+    font-size: 35px;
+    font-weight: 600;
     color: #e5e5e5;
     text-decoration: none;
-    border-radius: 4px;
-    font-size: 16px;
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+li a {
+    color: #e5e5e5;
+    font-size: 18px;
     font-weight: bold;
-    cursor: pointer;
-    margin-top: 10px;
-    transition: background-color 0.3s ease;
-}
-
-.login-button:hover {
-    background-color: #ffba48;
-}
-
-.end {
-    margin-top: 15px;
-    text-align: center;
-    font-size: 14px;
-}
-
-.end a {
-    color: #fca311;
+    margin-right: 25px;
     text-decoration: none;
+}
+.element2{
+    background-color:#14213d;
+    color: #e5e5e5;
+    font-size: 18px;
     font-weight: bold;
+    margin-right: 25px;
+    text-decoration: none;  
 }
 
-.end a:hover {
-    text-decoration: underline;
+.buttonn {
+    background-color: #fca311;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+    color: #023047;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+.containerr {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 390px;
 }

@@ -3,35 +3,38 @@
 <head>
     <link rel="stylesheet" href="sign-up.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up Page</title>
+    <title>PETS KINGDOM</title>
     
 </head>
 <body>
     <div class="container">
         <h2>Sign Up</h2>
-        <form>
-            <div class="form-group">
+        <form id="signupform">
+            
+            <div class="inputt">
                 <label for="fullname">Full Name</label>
                 <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
             </div>
-            <div class="form-group">
+            <div class="inputt">
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" placeholder="Enter your email" required>
             </div>
-            <div class="form-group">
+            <div class="inputt">
                 <label for="password">Password</label>
                 <input type="password" id="password" name="password" placeholder="Create a password" required>
             </div>
-            <div class="form-group">
+            <div class="inputt">
                 <label for="confirm-password">Confirm Password</label>
                 <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
             </div>
             
             <button type="submit" class="buttonn"><a href="../pet-home/pet-home.html">Sign Up</a></button>
         </form>
+
         <div class="footer">
             <p>Already have an account? <a href="../log in/log-in.html">Log In</a></p>
         </div>
+
     </div>
 </body>
 </html>

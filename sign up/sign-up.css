@@ -1,8 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url(signup-photo.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
+    background-color: #e5e5e5;
     margin: 0;
     padding: 0;
     display: flex;
@@ -12,7 +10,8 @@ body {
 }
 
 .container {
-    background-color: #14213d;
+    background-color: #023047;
+    box-shadow: 0px 4px 10px #023047;
     padding: 30px;
     border-radius: 8px;
     width: 100%;
@@ -25,17 +24,17 @@ body {
     text-align: center;
 }
 
-.form-group {
+.inputt {
     margin-bottom: 15px;
 }
 
-.form-group label {
+.inputt label {
     display: block;
     margin-bottom: 5px;
     color: #fca311;
 }
 
-.form-group input {
+.inputt input {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;

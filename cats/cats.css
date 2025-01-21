@@ -1,31 +1,82 @@
-body{
-    background-image:url(cat1.jpg);
-    background-size: cover;
-   }
-   .navbar{
-       background-color: #8ecae6;  font-family: cursive;   padding-right: 15px;    padding-left: 15px; border: #003049 4px solid;
-   }
-   .navdiv{   
-   display: flex;  align-items: center;    justify-content: space-between;
-   }
-   .logo a{
-   font-size: 35px;    font-weight: 600;   color: #023047; text-decoration: none;
-   }
-   li{
-   list-style: none;   display: inline-block;  
-   }
-   li a{ 
-   color: #023047;   font-size: 18px;    font-weight: bold;  margin-right: 25px; text-decoration: none;            
-   }
-   button{
-       background-color: #219ebc;    margin-left: 10px;  border-radius: 10px;    padding: 10px;  width: 90px;
-   }
-   button a{
-       color: #023047;   font-weight: bold;  font-size: 15px; text-decoration: none;
-   }
-   .themain{
-   }
-   .main1{
-       color: #023047;   font-weight: bold;  font-size: xx-large;    margin-top:10px;    margin-left: 10px;
-   }
-   
+body {
+    background-color: #023047;
+    margin: 0px;
+    padding: 0px;
+}
+.navbarr {
+    text-decoration: none;
+    background-color: #14213d;
+    font-family: cursive;
+    padding: 5px;
+    border: #fca311 4px solid;
+}
+.navdivv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logoo {
+    font-size: 35px;
+    font-weight: 600;
+    color: #e5e5e5;
+    text-decoration: none;
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+li a {
+    color: #e5e5e5;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+    text-decoration: none;
+}
+.element2{
+    background-color:#14213d;
+    color: #e5e5e5;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+    text-decoration: none;  
+}
+
+.buttonn {
+    background-color: #fca311;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+    color: #023047;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+h1{
+color: #fca311;
+text-align: center;
+font-family: cursive;
+}
+.main-container{
+display: flex;
+flex-direction:row;
+}
+
+form{
+    margin-left: 20px;
+}
+form h3 {
+color: #fca311;
+font-family: cursive;
+}
+form label{
+    color: #e5e5e5;
+}
+.vertical-line {
+    width: 2px;
+    height:auto;
+    background-color: #fca311;
+    margin-left: 5px;
+}

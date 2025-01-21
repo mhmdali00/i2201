@@ -1,0 +1,3 @@
+function photoclick(){
+document.get
+}
