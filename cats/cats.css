@@ -111,11 +111,11 @@ form label {
     height: fit-content;
     overflow: hidden;
     transition: max-height 0.3s ease;
-    max-height: 800px;
+    max-height: 680px;
 }
 
 .content.expanded {
-    max-height: 2000px;
+    max-height: 1200px;
 }
 
 .cat-info {
