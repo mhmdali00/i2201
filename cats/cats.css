@@ -136,7 +136,7 @@ form label {
     margin: 20px auto;
     padding: 10px 20px;
     font-size: 16px;
-    color: white;
+    color: #023047;
     background-color: #fca311;
     border: none;
     border-radius: 5px;
@@ -145,4 +145,16 @@ form label {
 
 .see-more-btn:hover {
     background-color: #fca311;
+}
+h3{
+    color: #fca311;
+}
+.cat-info a{
+    text-decoration: none;
+}
+.cat-info span{
+    color: #e5e5e5;
+}
+.cat-info p{
+    color: #fca311;
 }
