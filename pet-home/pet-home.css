@@ -80,7 +80,6 @@ li a {
 }
 .mainphoto img:hover {
     transform: scale(1.1);
-    filter: brightness(0.8); 
 }
 .main2 {
     display: flex;
@@ -125,6 +124,13 @@ color: #fca311;
     margin: 5px 0;
     padding-left: 20px;
 }
+.paragraphs:hover {
+    transform: scale(1.1);
+    background-color: #14213d;
+    color: #e5e5e5;
+    border: 2px solid #fca311;
+}
+
 .main3{
     display: flex;
     flex-direction: row;
