@@ -1,4 +1,4 @@
-const content = document.getElementById('content');
+const content = document.getElementById('element-2');
 const button = document.getElementById('seeMoreBtn');
 
 button.addEventListener('click', () => {
