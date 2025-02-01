@@ -21,6 +21,7 @@ body {
     font-weight: 600;
     color: #e5e5e5;
     text-decoration: none;
+    margin-left: 40px;
 }
 li {
     list-style: none;
@@ -33,7 +34,7 @@ li a {
     margin-right: 25px;
     text-decoration: none;
 }
-.element2{
+.nav-element-2{
     background-color:#14213d;
     color: #e5e5e5;
     font-size: 18px;

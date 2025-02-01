@@ -122,44 +122,43 @@ form label {
 }
 
 .dog-info {
-    background-color: #fca311;
-    border: 2px solid #e5e5e5;
+    background-color: #14213d;
+    border: 2px solid #fca311;
     margin: 10px;
     padding: 10px;
     width: 250px;
     text-align: center;
 }
-
-.dog-info h3 {
-    color: #e5e5e5;
+.dog-info:hover {
+    transform: scale(1.1);
+    background-color: #fca311;
+    color: #023047;
+    border: 2px solid #e5e5e5;
 }
-
+.dog-info h3 {
+    color: #fca311;
+}
+.dog-info:hover h3{
+    color: #023047;
+}
 .dog-info a {
     text-decoration: none;
 }
-
 .dog-info span {
+    color: #fca311;
+}
+.dog-info:hover span{
     color: #14213d;
 }
-
 .dog-info p {
     color: #e5e5e5;
     font-weight: bolder;
 }
-
 .dog-info img {
     border: 2px solid #e5e5e5;
     width: 100%;
     height: auto;
 }
-
-.dog-info:hover {
-    transform: scale(1.1);
-    background-color: #fca311;
-    color: #14213d;
-    border: 2px solid #e5e5e5;
-}
-
 .see-more-btn {
     display: block;
     margin: 20px auto;

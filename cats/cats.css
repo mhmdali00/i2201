@@ -123,16 +123,25 @@ form label {
 }
 
 .cat-info {
-    background-color: #fca311;
-    border: 2px solid #e5e5e5;
+    background-color: #14213d;
+    border: 2px solid #fca311;
     margin: 10px;
     padding: 10px;
     width: 250px;
     text-align: center;
 }
+.cat-info:hover {
+    transform: scale(1.1);
+    background-color: #fca311;
+    color: #023047;
+    border: 2px solid #e5e5e5;
+}
 
 .cat-info h3 {
-    color: #e5e5e5;
+    color: #fca311;
+}
+.cat-info:hover h3{
+    color: #023047;
 }
 
 .cat-info a {
@@ -140,27 +149,21 @@ form label {
 }
 
 .cat-info span {
+    color: #fca311;
+}
+.cat-info:hover span{
     color: #14213d;
 }
-
 .cat-info p {
     color: #e5e5e5;
     font-weight: bolder;
 }
 
 .cat-info img {
-    border: 2px solid #e5e5e5;
+    border: 2px solid #fca311;
     width: 100%;
     height: auto;
 }
-
-.cat-info:hover {
-    transform: scale(1.1);
-    background-color: #fca311;
-    color: #14213d;
-    border: 2px solid #e5e5e5;
-}
-
 .see-more-btn {
     display: block;
     margin: 20px auto;
