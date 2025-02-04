@@ -5,7 +5,6 @@ body {
     margin: 0px;
 }
 .navbarr {
-    text-decoration: none;
     background-color: #14213d;
     font-family: cursive;
     padding: 5px;
@@ -15,13 +14,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 20px;
 }
 .logoo {
     font-size: 35px;
     font-weight: 600;
     color: #e5e5e5;
-    text-decoration: none;
-    margin-left: 40px;
+}
+.logoo:hover{
+color: #fca311;
+transition: all .5s;
 }
 li {
     list-style: none;
@@ -34,6 +36,11 @@ li a {
     margin-right: 25px;
     text-decoration: none;
 }
+li a:hover{
+color: #fca311;
+transition: all .5s;
+}
+
 .nav-element-2{
     background-color:#14213d;
     color: #e5e5e5;
@@ -54,6 +61,12 @@ li a {
     font-size: 15px;
     text-decoration: none;
     font-family: cursive;
+    transition:all .5s;
+}
+.buttonn:hover{
+    background-color: #e5e5e5;
+    color: #fca311;
+    box-shadow: 0 4px 8px #fca311;
 }
 .main1 {
     color: #e5e5e5;
@@ -95,6 +108,7 @@ li a {
     line-height: 1.6;
     width: 400px;
     font-weight: 700;
+    transition: all .5s;
 }
 .paragraphs h2 {
     color: #fca311;
@@ -130,6 +144,7 @@ color: #fca311;
     background-color: #14213d;
     color: #e5e5e5;
     border: 2px solid #fca311;
+    
 }
 
 .main3{

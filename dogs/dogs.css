@@ -24,8 +24,11 @@ body {
     font-size: 35px;
     font-weight: 600;
     color: #e5e5e5;
-    text-decoration: none;
 }
+.logoo:hover{
+    color: #fca311;
+    transition: all .5s;
+    }
 
 .nav-element-1 li {
     list-style: none;
@@ -39,6 +42,10 @@ body {
     margin-right: 25px;
     text-decoration: none;
 }
+.nav-element-1 li a:hover{
+    color: #fca311;
+    transition: all .5s;
+    }
 
 .nav-element-2 {
     background-color: #14213d;
@@ -62,7 +69,14 @@ body {
     text-decoration: none;
     font-family: cursive;
     text-align: center;
+    transition:all .5s;
 }
+.buttonn:hover{
+    background-color: #e5e5e5;
+    color: #fca311;
+    box-shadow: 0 4px 8px #fca311;
+}
+
 
 h1 {
     color: #fca311;
@@ -134,6 +148,7 @@ form label {
     background-color: #fca311;
     color: #023047;
     border: 2px solid #e5e5e5;
+    transition: all .5s;
 }
 .dog-info h3 {
     color: #fca311;
@@ -157,7 +172,7 @@ form label {
 .dog-info img {
     border: 2px solid #e5e5e5;
     width: 100%;
-    height: auto;
+    height: 190px;
 }
 .see-more-btn {
     display: block;
@@ -172,7 +187,10 @@ form label {
 }
 
 .see-more-btn:hover {
-    background-color: #fca311;
+    background-color: #e5e5e5;
+    color: #fca311;
+    transition: all .5s;
+    box-shadow: 0 4px 8px #fca311;
 }
 
 hr {
@@ -202,6 +220,7 @@ hr {
     background-color: #e5e5e5;
     color: #14213d;
     border: 2px solid #fca311;
+    transition: all .5s;
 }
 
 .dog-breeding-tips2 {
@@ -226,6 +245,7 @@ hr {
     background-color: #fca311;
     color: #14213d;
     border: 2px solid #e5e5e5;
+    transition: all .5s;
 }
 
 .dog-breeding-tips2:hover h3 {
@@ -255,6 +275,7 @@ hr {
     background-color: #14213d;
     color: #e5e5e5;
     border: 2px solid #fca311;
+    transition: all .5s;
 }
 
 .dog-feed-tips h3 {
@@ -274,70 +295,4 @@ hr {
 
 .dog-feed-tips:hover span {
     color: #fca311;
-}
-
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    font-family: Arial, sans-serif;
-}
-
-td {
-    padding: 12px;
-    text-align: left;
-    border: 2px solid #fca311;
-    color: #e5e5e5;
-}
-
-th {
-    color: #14213d;
-    background-color: #fca311;
-    font-weight: bold;
-}
-
-.first {
-    color: #fca311;
-}
-
-td:hover {
-    background-color: #e5e5e5;
-    color: #14213d;
-    transform: scale(1.02);
-}
-
-.first:hover {
-    background-color: #fca311;
-    color: #e5e5e5;
-}
-
-.dog-food {
-    display: flex;
-    flex-direction: row;
-    border: 2px solid #e5e5e5;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 20px;
-    font-size: large;
-    color: #e5e5e5;
-    box-shadow: 5px 5px 30px #e5e5e5;
-    width: 600px;
-}
-
-.dog-food img {
-    border-radius: 20px;
-    width: 150px;
-    height: 250px;
-    margin-right: 10px;
-}
-
-.dog-food h3 {
-    color: #fca311;
-}
-
-.dog-food:hover {
-    background-color: #e5e5e5;
-    color: #14213d;
-    box-shadow: 5px 5px 30px #fca311;
-    border: 2px solid #fca311;
 }

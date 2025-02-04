@@ -1,6 +1,6 @@
 body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #fca311;
+    background-color: #e5e5e5;
     margin: 0;
     padding: 0;
     display: flex;
@@ -23,9 +23,7 @@ body {
     color: #fca311;
     text-align: center;
 }
-.container:hover {
-transform: scale(1.1);
-}
+
 .inputt {
     margin-bottom: 15px;
 }
