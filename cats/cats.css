@@ -10,7 +10,10 @@ body {
     background-color: #14213d;
     font-family: cursive;
     padding: 5px;
-    border: #fca311 4px solid;
+    position: fixed; 
+    top: 0;
+    z-index: 1000;
+    width: 100%;
 }
 
 .navdivv {
@@ -25,6 +28,30 @@ body {
     font-weight: 600;
     color: #e5e5e5;
 }
+
+select option {
+    color: #e5e5e5;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+    text-decoration: none;
+    background-color: #14213d;
+    font-family: cursive;
+  }
+  select{
+    font-family: cursive;
+    color: #e5e5e5;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+    text-decoration: none;
+    background-color: #14213d;
+    border: none;
+  }
+  select:hover {
+    color: #fca311;
+    transition: all .5s;
+  }
 .logoo:hover{
     color: #fca311;
     transition: all .5s;
@@ -56,6 +83,7 @@ body {
     text-decoration: none;
     border: none;
 }
+
 
 .buttonn {
     background-color: #fca311;
@@ -104,6 +132,7 @@ form label {
 .main-container {
     display: flex;
     flex-direction: column;
+    margin-top: 100px;
 }
 .vertical-line {
     width: 2px;

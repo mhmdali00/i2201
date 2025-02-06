@@ -27,9 +27,13 @@
                         <ul>
                             <li> <a href="../pet-home/pet-home.html">HOME</a></li>
                             <li> <a href="../dogs/dogs.html">DOGS</a></li>
-                            <li> <a href="../birds/birds.html">BIRDS</a></li>
-                            <li> <a href="../rabbits/rabbit.html">RABBITS</a></li>
-                            <li> <a href="../other-animals/other.html">OTHER</a></li>
+                            <select id="OTHER" name="OTHER" onchange="location = this.value;">
+                                <option disabled selected>OTHER ANIMALS...</option>
+                                <option value="../birds/birds.html">BIRDS</option>
+                                <option value="../rabbits/rabbit.html">RABBITS</option>
+                                <option value="../other-animals/other.html">OTHERS</option>
+                            </select>
+                            <li> <a href="../community/community-page.html">COMMUNITY</a></li>
 
                         </ul>
                     </div>

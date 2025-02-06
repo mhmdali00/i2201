@@ -1,0 +1,230 @@
+body {
+  background-color: #023047;
+  background-size: cover;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+.navbarr {
+  background-color: #14213d;
+  font-family: cursive;
+  padding: 5px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+.navdivv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+
+
+.logoo {
+  font-size: 35px;
+  font-weight: 600;
+  color: #e5e5e5;
+}
+
+.logoo:hover {
+  color: #fca311;
+  transition: all .5s;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li a {
+  color: #e5e5e5;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #fca311;
+  transition: all .5s;
+}
+select option {
+  color: #e5e5e5;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+  text-decoration: none;
+  background-color: #14213d;
+  font-family: cursive;
+}
+select{
+  font-family: cursive;
+  color: #e5e5e5;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+  text-decoration: none;
+  background-color: #14213d;
+  border: none;
+}
+select:hover {
+  color: #fca311;
+  transition: all .5s;
+}
+.nav-element-2 {
+  background-color: #14213d;
+  color: #e5e5e5;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+  text-decoration: none;
+}
+
+.buttonn {
+  background-color: #fca311;
+  margin-left: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 90px;
+  color: #023047;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: cursive;
+  transition: all .5s;
+}
+
+.buttonn:hover {
+  background-color: #e5e5e5;
+  color: #fca311;
+  box-shadow: 0 4px 8px #fca311;
+}
+h2:hover {
+transition:all .5s;
+color: #e5e5e5;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.intro {
+  text-align: center;
+  padding: 80px 20px;
+  color: #fff;
+}
+
+.intro h1 {
+  font-size: 40px;
+}
+
+.intro p {
+  font-size: medium;
+  margin-bottom: 20px;
+}
+div h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #fca311;
+}
+.about{
+  margin: 10px;
+}
+.about p{
+  font-size: large;
+  color: #e5e5e5;
+}
+
+
+.tips .tip {
+  background-color: #e5e5e5;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+
+.tips .tip:hover{
+  transition: all .5s;
+transform: scale(1.1);
+background-color: #14213d;
+color: #e5e5e5;
+ 
+}
+.tips .tip h3:hover{
+  color: #fca311;
+}
+
+.tips .tip h3 {
+  color: #fca311;
+}
+
+.adoption ul {
+  list-style: none;
+  padding: 0;
+}
+.adoption p{
+color: #e5e5e5;
+
+}
+.adoption ul li {
+  margin-bottom: 10px;
+}
+
+.adoption ul li a {
+  color: #fca311;
+}
+
+.adoption ul li a:hover {
+  text-decoration: underline;
+}
+
+.events ul {
+  list-style: none;
+  padding: 0;
+}
+
+.events ul li {
+  background-color: #e5e5e5;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.contact{
+  color: #e5e5e5;
+  font-size: large;
+}
+.contact a{
+  color: #e5e5e5;
+}
+.contact a{
+  text-decoration:double;
+transition:all .5s;
+transform: scale(1.5);
+color: #e5e5e5;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #fca311;
+  color: #e5e5e5
+}
+footer .social-links a{
+  margin: 10px;
+  font-size:medium;
+}
+footer .social-links a:hover{
+text-decoration:double;
+transition:all .5s;
+transform: scale(1.5);
+color: #e5e5e5;
+}

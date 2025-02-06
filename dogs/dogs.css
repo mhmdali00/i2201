@@ -10,7 +10,10 @@ body {
     background-color: #14213d;
     font-family: cursive;
     padding: 5px;
-    border: #fca311 4px solid;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
 }
 
 .navdivv {
@@ -25,10 +28,37 @@ body {
     font-weight: 600;
     color: #e5e5e5;
 }
-.logoo:hover{
+
+.logoo:hover {
     color: #fca311;
     transition: all .5s;
-    }
+}
+
+select option {
+    color: #e5e5e5;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+    text-decoration: none;
+    background-color: #14213d;
+    font-family: cursive;
+}
+
+select {
+    font-family: cursive;
+    color: #e5e5e5;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+    text-decoration: none;
+    background-color: #14213d;
+    border: none;
+}
+
+select:hover {
+    color: #fca311;
+    transition: all .5s;
+}
 
 .nav-element-1 li {
     list-style: none;
@@ -42,10 +72,11 @@ body {
     margin-right: 25px;
     text-decoration: none;
 }
-.nav-element-1 li a:hover{
+
+.nav-element-1 li a:hover {
     color: #fca311;
     transition: all .5s;
-    }
+}
 
 .nav-element-2 {
     background-color: #14213d;
@@ -69,9 +100,10 @@ body {
     text-decoration: none;
     font-family: cursive;
     text-align: center;
-    transition:all .5s;
+    transition: all .5s;
 }
-.buttonn:hover{
+
+.buttonn:hover {
     background-color: #e5e5e5;
     color: #fca311;
     box-shadow: 0 4px 8px #fca311;
@@ -112,6 +144,7 @@ form label {
 .main-container {
     display: flex;
     flex-direction: column;
+    margin-top: 100px;
 }
 
 .vertical-line {
@@ -143,6 +176,7 @@ form label {
     width: 250px;
     text-align: center;
 }
+
 .dog-info:hover {
     transform: scale(1.1);
     background-color: #fca311;
@@ -150,30 +184,38 @@ form label {
     border: 2px solid #e5e5e5;
     transition: all .5s;
 }
+
 .dog-info h3 {
     color: #fca311;
 }
-.dog-info:hover h3{
+
+.dog-info:hover h3 {
     color: #023047;
 }
+
 .dog-info a {
     text-decoration: none;
 }
+
 .dog-info span {
     color: #fca311;
 }
-.dog-info:hover span{
+
+.dog-info:hover span {
     color: #14213d;
 }
+
 .dog-info p {
     color: #e5e5e5;
     font-weight: bolder;
 }
+
 .dog-info img {
     border: 2px solid #e5e5e5;
     width: 100%;
     height: 190px;
 }
+
 .see-more-btn {
     display: block;
     margin: 20px auto;

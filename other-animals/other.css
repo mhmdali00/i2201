@@ -10,7 +10,10 @@ body {
     background-color: #14213d;
     font-family: cursive;
     padding: 5px;
-    border: #fca311 4px solid;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
 }
 
 .navdivv {
@@ -25,10 +28,37 @@ body {
     font-weight: 600;
     color: #e5e5e5;
 }
-.logoo:hover{
+
+.logoo:hover {
     color: #fca311;
     transition: all .5s;
-    }
+}
+
+select option {
+    color: #e5e5e5;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+    text-decoration: none;
+    background-color: #14213d;
+    font-family: cursive;
+}
+
+select {
+    font-family: cursive;
+    color: #e5e5e5;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+    text-decoration: none;
+    background-color: #14213d;
+    border: none;
+}
+
+select:hover {
+    color: #fca311;
+    transition: all .5s;
+}
 
 .nav-element-1 li {
     list-style: none;
@@ -42,10 +72,12 @@ body {
     margin-right: 25px;
     text-decoration: none;
 }
-.nav-element-1 li a:hover{
+
+.nav-element-1 li a:hover {
     color: #fca311;
     transition: all .5s;
-    }
+}
+
 .buttonn {
     background-color: #fca311;
     margin-left: 10px;
@@ -58,13 +90,15 @@ body {
     text-decoration: none;
     font-family: cursive;
     text-align: center;
-    transition:all .5s;
+    transition: all .5s;
 }
-.buttonn:hover{
+
+.buttonn:hover {
     background-color: #e5e5e5;
     color: #fca311;
     box-shadow: 0 4px 8px #fca311;
 }
+
 .element-1 {
     display: flex;
     flex-wrap: wrap;
@@ -73,6 +107,7 @@ body {
     overflow: hidden;
     max-height: 680px;
 }
+
 .other-info {
     background-color: #14213d;
     border: 2px solid #fca311;
@@ -81,13 +116,13 @@ body {
     width: 250px;
     text-align: center;
 }
+
 .other-info:hover {
     transform: scale(1.1);
     background-color: #fca311;
     color: #023047;
     border: 2px solid #e5e5e5;
     transition: all .5s;
-
 }
 
 .other-info h3 {
@@ -120,8 +155,74 @@ body {
     width: 100%;
     height: 200px;
 }
+
 h1 {
     color: #fca311;
     text-align: center;
     font-family: cursive;
+}
+.line {
+    width: 2px;
+    height: auto;
+    background-color: #fca311;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+.dog-breeding-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.dog-breeding-tips1 {
+    background-color: #14213d;
+    border: 4px solid #e5e5e5;
+    margin: 10px;
+    width: 600px;
+    color: #fca311;
+    font-size: large;
+    padding: 10px;
+    align-items: center;
+}
+
+.dog-breeding-tips1:hover {
+    transform: scale(1.1);
+    background-color: #e5e5e5;
+    color: #14213d;
+    border: 2px solid #fca311;
+    transition: all .5s;
+}
+
+.dog-breeding-tips2 {
+    background-color: #14213d;
+    border: 2px solid #fca311;
+    color: #e5e5e5;
+    margin: 10px;
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    font-size: large;
+}
+
+.dog-breeding-tips2 h3 {
+    color: #fca311;
+    text-align: center;
+    font-weight: bold
+}
+
+.dog-breeding-tips2:hover {
+    transform: scale(1.1);
+    background-color: #fca311;
+    color: #14213d;
+    border: 2px solid #e5e5e5;
+    transition: all .5s;
+}
+
+.dog-breeding-tips2:hover h3 {
+    color: #e5e5e5;
 }
