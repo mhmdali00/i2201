@@ -1,6 +1,7 @@
 const content = document.getElementById('element-2');
 const button = document.getElementById('seeMoreBtn');
 
+
 button.addEventListener('click', () => {
     content.classList.toggle('expanded');
     if (content.classList.contains('expanded')) {
